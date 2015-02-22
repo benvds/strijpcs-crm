@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  subscription_id: 1
+  month: 2015-02-22
+  discount_percentage: 1
+  comments: MyText
+
+two:
+  subscription_id: 1
+  month: 2015-02-22
+  discount_percentage: 1
+  comments: MyText

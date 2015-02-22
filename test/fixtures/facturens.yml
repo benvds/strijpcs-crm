@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  abonnement: MyString
+  kalendermaand: 2015-02-17
+  kortingspercentage: 1
+  opmerkingen: MyText
+
+two:
+  abonnement: MyString
+  kalendermaand: 2015-02-17
+  kortingspercentage: 1
+  opmerkingen: MyText

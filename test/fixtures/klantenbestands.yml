@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  quote: MyText
+  author: MyString
+  image: MyString
+  voornaam: MyString
+  tussenvoegsel: MyString
+  achternaam: MyString
+  bedrijfsnaam: MyString
+  email: MyString
+  website: MyString
+  telefoon: 1
+  straat: MyString
+  huisnummer: 1
+  toevoeging: MyString
+  postcode: MyString
+  plaats: MyString
+  kvk-nummer: 1
+  btw-nummer: 1
+  iban: MyString
+  opmerkingen: MyText
+
+two:
+  quote: MyText
+  author: MyString
+  image: MyString
+  voornaam: MyString
+  tussenvoegsel: MyString
+  achternaam: MyString
+  bedrijfsnaam: MyString
+  email: MyString
+  website: MyString
+  telefoon: 1
+  straat: MyString
+  huisnummer: 1
+  toevoeging: MyString
+  postcode: MyString
+  plaats: MyString
+  kvk-nummer: 1
+  btw-nummer: 1
+  iban: MyString
+  opmerkingen: MyText

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_id: 1
+  package_id: 1
+  first_month: 2015-02-22
+  last_month: 2015-02-22
+  comments: MyText
+
+two:
+  customer_id: 1
+  package_id: 1
+  first_month: 2015-02-22
+  last_month: 2015-02-22
+  comments: MyText

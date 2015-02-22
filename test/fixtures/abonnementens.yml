@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  klant: MyString
+  pakket: MyString
+  eerste_kalendermaand: 2015-02-17
+  laatste_kalendermaand: 2015-02-17
+  opmerkingen: MyText
+
+two:
+  klant: MyString
+  pakket: MyString
+  eerste_kalendermaand: 2015-02-17
+  laatste_kalendermaand: 2015-02-17
+  opmerkingen: MyText
