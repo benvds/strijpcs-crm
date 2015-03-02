@@ -51,14 +51,16 @@
   - naam
   - omschrijving
   - prijs
+  - btw
+  - eerste maand
+  - laaste maand
 - crud abonnementen
   - klant
   - pakket
   - eerste kalendermaand
   - laatste kalendermaand (opt)
+  - aantal
   - opmerkingen
 - facturen
-  - abonnement
-  - kalendermaand
-  - kortingspercentage
-  - opmerkingen
+  - (alle benodigde data kopieren, correcties via creditfactuur)
+
