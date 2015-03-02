@@ -1,0 +1,105 @@
+
+  <%= form_for [@customer], :html => {:multipart => true} do |f| %>
+  <% if @customer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@customer.errors.count, "error") %> prohibited this item from being saved:</h2>
+
+      <ul>
+      <% @customer.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+  <div class="form-group">
+
+
+    <div class="field">
+      <%= f.label :first_name %> <br>
+      <%= f.text_field :first_name %>
+    </div>
+
+    <div class="field">
+      <%= f.label :insertion %> <br>
+      <%= f.text_field :insertion %>
+    </div>
+
+    <div class="field">
+      <%= f.label :last_name %> <br>
+      <%= f.text_field :last_name %>
+    </div>
+
+    <div class="field">
+      <%= f.label :company_name %> <br>
+      <%= f.text_field :company_name %>
+    </div>
+
+    <div class="field">
+      <%= f.label :email %> <br>
+      <%= f.text_field :email %>
+    </div>
+
+    <div class="field">
+      <%= f.label :website %> <br>
+      <%= f.text_field :website %>
+    </div>
+
+    <div class="field">
+      <%= f.label :phone %> <br>
+      <%= f.text_field :phone %>
+    </div>
+
+    <div class="field">
+      <%= f.label :street %> <br>
+      <%= f.text_field :street %>
+    </div>
+
+    <div class="field">
+      <%= f.label :home_number %> <br>
+      <%= f.text_field :home_number %>
+    </div>
+
+    <div class="field">
+      <%= f.label :addition %> <br>
+      <%= f.text_field :addition %>
+    </div>
+
+    <div class="field">
+      <%= f.label :postal_code %> <br>
+      <%= f.text_field :postal_code %>
+    </div>
+
+    <div class="field">
+      <%= f.label :place %> <br>
+      <%= f.text_field :place %>
+    </div>
+
+    <div class="field">
+      <%= f.label :kvk_number %> <br>
+      <%= f.text_field :kvk_number %>
+    </div>
+
+    <div class="field">
+      <%= f.label :btw_number %> <br>
+      <%= f.text_field :btw_number %>
+    </div>
+
+    <div class="field">
+      <%= f.label :iban %> <br>
+      <%= f.text_field :iban %>
+    </div>
+
+    <div class="field">
+      <%= f.label :comments %> <br>
+      <%= f.text_field :comments %>
+ 	 </div>
+
+
+  	<div class="actions">
+    	<%= f.submit %>
+  	</div>
+	</form>
+
+<% end %>

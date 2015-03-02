@@ -1,0 +1,59 @@
+
+<h1> Customers </h1>
+
+
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Insertion</th>
+      <th>Last Name</th>
+      <th>Company Name</th>  
+      <th>E-mail</th>
+      <th>Website</th>  
+      <th>Phone</th>
+      <th>Street</th>  
+      <th>Home Number</th>
+      <th>Addition</th>  
+      <th>Postal Code</th>
+      <th>Place</th>  
+      <th>KVK-nummer</th>
+      <th>BTW-nummer</th>  
+      <th>IBAN</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+
+  <tbody>
+  	<% @customers.each do |customer| %>
+      <tr>
+        <td><%= customer.first_name %></td>
+        <td><%= customer.insertion %></td>
+        <td><%= customer.last_name %></td>
+        <td><%= customer.company_name %></td>
+        <td><%= customer.email %></td>
+        <td><%= customer.website %></td>
+        <td><%= customer.phone %></td>
+        <td><%= customer.street %></td>
+        <td><%= customer.home_number %></td>
+        <td><%= customer.addition %></td>
+        <td><%= customer.postal_code %></td>
+        <td><%= customer.place %></td>
+        <td><%= customer.kvk_number %></td>
+        <td><%= customer.btw_number %></td>
+        <td><%= customer.iban %></td>
+        <td><%= customer.comments %></td>
+
+
+
+        <td><%= button_to 'Edit', edit_customer_path(customer), :method => :get %></td>
+        <td><%= button_to 'Delete', customer, :method => :get , method: :delete, data: { confirm: 'Are you sure?' } %></td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to "New Customer", new_customer_path %>
+
+
