@@ -26,7 +26,9 @@
 
   <tbody>
   	<% @customers.each do |customer| %>
+
       <tr>
+
         <td><%= customer.first_name %></td>
         <td><%= customer.insertion %></td>
         <td><%= customer.last_name %></td>
@@ -43,8 +45,6 @@
         <td><%= customer.btw_number %></td>
         <td><%= customer.iban %></td>
         <td><%= customer.comments %></td>
-
-
 
         <td><%= button_to 'Edit', edit_customer_path(customer), :method => :get %></td>
         <td><%= button_to 'Delete', customer, :method => :get , method: :delete, data: { confirm: 'Are you sure?' } %></td>
